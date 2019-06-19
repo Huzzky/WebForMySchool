@@ -1,0 +1,433 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {text-decoration: none;}
+li {list-style:none;}
+body{font-family: 'Alice', serif;
+}
+header {
+	background: #000;
+	width: 100%;
+	display: flex;
+}
+.header__logo {
+	text-transform: uppercase;
+	color: #F8F8FF;
+	font-weight: 800;
+	font-style: 14px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-left: 1%;
+	margin-bottom: 10px;
+}
+
+nav {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 24%;
+	
+}
+.topnav a{
+color: #f8f8ff;
+text-align: center;
+padding: 10px 8px;
+font-size: 17px;
+font-weight: bold;
+border-left:2px solid #000;
+	padding-left: 15px;
+}
+.topnav a:hover {
+	border-bottom: 3px solid #8B008B;
+	
+}
+
+.topnav .icon {
+display: none;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+background-image: url(image/Nadeusfinalphoto.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+
+
+main:hover {
+	opacity: 0.99;
+} /*При наводке на главную фотографию она немного становится прозрачной(на 0.01)*/
+main .main__welcome {
+	color: #dce0e0;
+	text-align: center;
+	width: 100%;
+	margin-top: 300px;
+	margin-bottom: 350px;
+}
+
+.TV1811 {text-shadow: 2px 2px 0 #8B008B, -2px -2px 0 #8B008B;
+font-size: 25pt;
+font-weight: 500;
+
+}
+.Photo1 {
+	padding-right: 10px;
+	padding-bottom: 50px;
+
+
+}
+
+.nonot {font-size: 15pt;}
+
+
+.wrapper {
+	width: 100%;
+	background-image: url(image/ujas2.png);
+	background-position: center;
+	background-attachment: scroll;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	
+}
+.wrapper:hover{
+	opacity: 0.99;
+}
+.main__about {
+text-align: center;
+margin-bottom: -100px;
+
+}
+main .main__about {
+padding: 100px 0 100px 0;
+}
+
+.about_right h1 { display: inline-block;
+border-bottom: 3px solid #fcac45; }
+
+
+h2 {
+	color: #fff;
+margin-top: -70px;
+
+font-weight: 500;
+text-shadow: 2px 2px 0 #8B008B, -2px -2px 0 #8B008B;
+font-size: 40pt;
+}
+
+.about__photo1 {
+	margin-left: 60px;
+	margin-bottom: 0px;
+}
+.about_left {
+	text-align: left;
+	margin-left: 250px;
+	padding-bottom: 80px;
+	padding-top:40px;
+	font-size: 18pt;
+	color: #fff;
+font-weight: 500;
+text-shadow: 1px 1px 0 #8B008B, -1px -1px 0 #8B008B;
+}
+.about__photo2 { margin-left: 10px;
+	margin-bottom: -15px; }
+
+.about_right {
+	text-align: right;
+	margin-right: 200px;
+	padding-bottom: 25px;
+	padding-top: 50px;
+	font-size: 18pt;
+	color: #fff;
+font-weight: 500;
+text-shadow: 1px 1px 0 #8B008B, -1px -1px 0 #8B008B;
+}
+
+
+/*.about__photo3 {
+margin-left: 60px;
+	margin-bottom: 21px;
+}
+
+.about_left2{
+		text-align: left;
+	margin-left: 250px;
+	padding-bottom: 50px;
+	font-size: 14pt;
+	color: #fff;
+font-weight: 500;
+text-shadow: 1px 1px 0 #8B008B, -1px -1px 0 #8B008B;
+}
+.about__photo4 {
+	margin-left: 100px;
+	margin-bottom: 84px; 
+margin-left: 50px;
+}
+.about_right2 {
+	text-align: right;
+	margin-right: 200px;
+padding-bottom: 10px;
+	font-size: 14pt;
+	color: #fff;
+font-weight: 500;
+text-shadow: 1px 1px 0 #8B008B, -1px -1px 0 #8B008B;
+}*/
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+	nav {
+		margin-left: 20%;
+	}
+}
+@media screen and (max-width: 1105px){
+	nav {
+		margin-left: 10%;
+	}
+}
+
+
+@media screen and (max-width: 1010px){
+
+	.topnav a {display: none;}
+	.topnav a.icon{float: right;
+	margin-top: -8px;
+	display: block;
+	color:#fff;
+	font-size: 20px;
+	}
+	nav {width: 100%}
+	.topnav.responsive {
+			position: relative;
+			top: 50px;
+		left: -200px;
+	}
+header .topnav.responsive a.icon { height: 340px; }
+	.topnav.responsive {
+		position: absolute;
+		top: -50px;
+		right: ;: -200px;
+	}
+.topnav.responsive a {
+	float: none;
+	display: block;
+	text-align: left;
+}
+
+
+
+}
+
+
+/*.back {
+	font-size: 25pt;
+	font-weight: 700;
+	color: #000;
+	text-align: center;
+}*/
+
+
+.main__work {
+	width: 100%;
+	background-image: url(image/escheresque.png);
+	background-position: center;
+	background-attachment: scroll;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+.videomaker {
+	width: 100%;
+	background-position: center;
+	background-attachment: scroll;
+	background-image: url(image/ujas2.png);
+	margin: 0 auto;
+	padding-bottom: -10px;
+
+	}
+/*.videomaker:hover {
+	opacity: 0.99;
+}*/
+.videogallery {
+	font-size: 45pt;
+	font-weight: 700;
+	color: #fff;
+text-shadow: 3px 2px 0 #8B008B, -2px -3px 0 #8B008B;
+	text-align: center;
+	margin-bottom:50px;
+
+}
+
+/*.photogallery {
+text-align: center;
+padding-top: 50px 0 50px 0;
+}*/
+
+.main__work h1 {
+	margin-bottom: 30px;
+}
+
+.main__work p{
+	margin-bottom: 30px; 
+}
+.main__work img:hover {
+	opacity: 0.9;
+}
+/*При наводке на фотографии они немного становятся прозрачными(на 0.1)*/
+
+
+
+
+/*.team__cards {
+	flex-direction: column;
+}
+.services__cards {
+	grid-template-columns: auto;
+}
+.line1 img:not(:first-child){
+	display: none;
+}
+
+.line2 img:not(:first-child){
+	display: none;
+}
+
+
+.line3 img:not(:first-child){
+	display: none;
+}*/
+.social {
+	display: flex;
+	justify-content: center;
+}
+footer {
+	background: #000;
+	height: 44px;
+	width: 100%;
+	padding-top:10px;
+
+}
+.social img {
+	margin-top:;
+}
+
+.social img:hover {
+	opacity: 0.9;
+}
+
+footer:hover {
+	opacity: 0.9;
+}
+
+.line1 img{
+	border-radius: 2%;
+}
+.line2 img{
+	border-radius: 2%;
+}
+.line3 img{
+	border-radius: 2%;
+}
+
+.videoplayer{
+padding-left: 4.7%;
+width: 340px;
+height: 250px;
+
+
+
+/*	
+	
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: 33px;
+	padding: auto;
+
+	margin-left :auto;
+padding-left: auto;
+padding-right: auto;
+margin-right: auto;
+height:240px; 
+width:350px;*/
+
+
+}
+
+.autors {
+	font-size: 20pt;
+	font-weight: 500;
+	color: #fff;
+text-shadow: 2px 2px 0 #8B008B, -2px -3px 0 #8B008B;
+	margin-left: 170px;
+	margin-top: 15px;
+	padding-bottom: 20px;
+}
+
+.tort {
+	font-size: 20pt;
+	text-align: left;
+	margin-left: 70px;
+	font-weight: 700;
+	margin-top: 60px;
+}
+
+
+.adress {	font-size: 20pt;
+	font-weight: 500;
+	color: #fff;
+text-shadow: 2px 2px 0 #8B008B, -2px -3px 0 #8B008B;
+margin-bottom: 35px;
+margin-left: 100px;}
+
+
+.kekphoto1{margin-top:-25px;
+margin-right: 10px;}
+
+.VO p {
+text-align: center;
+display: inline;
+padding-left:13%;
+font-size: 22px;
+font-weight: bold;
+margin-bottom:25px;
+}	
+.Sfer {
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.infoVO p{
+	text-align: center;
+	display: inline;
+	margin-left:13%;
+	padding-left:-5%;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+
+.time p {text-align: center;
+	display: inline;
+	margin-left:16%;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
